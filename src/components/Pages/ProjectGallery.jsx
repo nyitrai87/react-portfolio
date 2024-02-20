@@ -9,11 +9,11 @@ const ProjectGallery = () => {
             <h1>These are my projects!</h1>
 
             <Row xs={1} md={2} className="g-4">
-                <Col>
-                    {projects.map(project => (
-                        <Project key={project.id} project={project} />
-                    ))}
-                </Col>
+                {projects.map(project => (
+                    <Col key={project.id}>
+                        <Project project={project} />
+                    </Col>
+                ))}
             </Row>
         </>
     )
