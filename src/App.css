@@ -2,9 +2,7 @@
   max-width: 100vw;
   min-height: 100vh;
   margin: 0 auto;
+  padding-top: 80px;
   text-align: center;
-}
-
-nav {
-  width: 100vw;
+  background-color: #282828;
 }
