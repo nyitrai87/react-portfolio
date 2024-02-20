@@ -3,7 +3,7 @@
         "id": 1,
         "title": "Book Tracker App",
         "description": "A book tracker web application to search for books, build a virtual collection, providing a responsive and user-friendly interface across devices.",
-        "image": "./images/book-search.png",
+        "image": "./src/assets/images/book-search.png",
         "github": "https://github.com/nyitrai87/book-tracker",
         "deployed": "https://nyitrai87.github.io/book-tracker/"
     },
@@ -11,7 +11,7 @@
         "id": 2,
         "title": "Weather Dashboard",
         "description": "A weather dashboard application showcasing my proficiency in utilising APIs and local storage to provide users with the current weather and 5-day forecast for any city worldwide",
-        "image": "./images/weather-dashboard.png",
+        "image": "./src/assets//images/weather-dashboard.png",
         "github": "https://github.com/nyitrai87/weather-dashboard",
         "deployed": "https://nyitrai87.github.io/weather-dashboard/"
     },
@@ -19,7 +19,7 @@
         "id": 3,
         "title": "Team Profile Generator",
         "description": "This is an easy-to-use Node.js application. It takes in information about employees, then generates an HTML webpage that displays summaries for each person.",
-        "image": "./images/team-profile-generator.png",
+        "image": "./src/assets//images/team-profile-generator.png",
         "github": "https://github.com/nyitrai87/team-profile-generator",
         "deployed": ""
     },
@@ -27,7 +27,7 @@
         "id": 4,
         "title": "Work Day Scheduler",
         "description": "This is a workday scheduler app that allows users to input and save their plans in hourly blocks, ensuring data persistence even after closing the browser.",
-        "image": "./images/work-day-scheduler.png",
+        "image": "./src/assets//images/work-day-scheduler.png",
         "github": "https://github.com/nyitrai87/work-day-scheduler",
         "deployed": "https://nyitrai87.github.io/work-day-scheduler/"
     },
@@ -35,7 +35,7 @@
         "id": 5,
         "title": "Readme Generator",
         "description": "This app makes it easier for developers to create README.md files for their projects. It requires the user to answer a few questions displayed on the console and the file will be generated.",
-        "image": "./images/readme-generator.png",
+        "image": "./src/assets//images/readme-generator.png",
         "github": "https://github.com/nyitrai87/readme-generator",
         "deployed": ""
     },
@@ -43,7 +43,7 @@
         "id": 6,
         "title": "Code Quiz Game",
         "description": "A timed quiz game to test your skills in HTML, CSS and JavaScript by answering multiple-choice questions.",
-        "image": "./images/code-quiz.png",
+        "image": "./src/assets//images/code-quiz.png",
         "github": "https://github.com/nyitrai87/code-quiz",
         "deployed": "https://nyitrai87.github.io/code-quiz/"
     },
@@ -51,7 +51,7 @@
         "id": 7,
         "title": "Random Password Generator",
         "description": "This project is a customizable password generator. Users can specify length (8-128 characters) and character types (special, numeric, lower/upper case), and the generated password is displayed for easy copying.",
-        "image": "./images/password-generator.png",
+        "image": "./src/assets//images/password-generator.png",
         "github": "https://github.com/nyitrai87/password-generator",
         "deployed": "https://nyitrai87.github.io/password-generator/"
     }
