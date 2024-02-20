@@ -1,0 +1,28 @@
+.col {
+    display: flex;
+}
+
+.card-body {
+    justify-content: space-between;
+    flex-direction: column;
+    background: rgba(220, 220, 220, 0.9);
+}
+
+.buttons-div {
+    display: flex;
+    justify-content: space-around;
+}
+
+.github-btn {
+    background-color: #063d94 !important;
+    border: none !important;
+    width: 160px;
+    margin: 0 5px 0 5px;
+}
+
+.deployed-btn {
+    background-color: #065202 !important;
+    border: none !important;
+    width: 160px;
+    margin: 0 5px 0 5px;
+}
