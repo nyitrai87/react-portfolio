@@ -1,8 +1,25 @@
 .customNav {
-    width: 100vw;
-    background: rgba(220, 220, 220, 0.9);
+    height: 54px;
+    background: #CACACA;
+}
+
+.nav-container {
+    flex-wrap: nowrap !important;
+}
+
+#basic-navbar-nav {
+    background: #CACACA;
+}
+
+.navbar-brand {
+    text-align: left;
 }
 
 .navbar-nav {
     margin-left: auto;
+}
+
+#logo {
+    width: 13%;
+    height: 13%;
 }

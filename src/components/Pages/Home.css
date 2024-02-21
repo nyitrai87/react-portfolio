@@ -1,0 +1,21 @@
+.jumbotron-text {
+    background: #CACACA;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    max-width: 75%;
+    padding-left: 100px;
+}
+
+.jumbotron-img {
+    background: #CACACA;
+    padding: 0 !important;
+    border-radius: 0.5rem !important;
+}
+
+#headshot {
+    max-width: 100%;
+    height: auto;
+    border-radius: 0.5rem !important;
+}

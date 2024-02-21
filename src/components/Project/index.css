@@ -5,7 +5,8 @@
 .card-body {
     justify-content: space-between;
     flex-direction: column;
-    background: rgba(220, 220, 220, 0.9);
+    background: #CACACA;
+    text-align: center;
 }
 
 .buttons-div {
