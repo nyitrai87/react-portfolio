@@ -1,10 +1,15 @@
 .customNav {
-    height: 54px;
+    height: 64px;
     background: #CACACA;
 }
 
 .nav-container {
     flex-wrap: nowrap !important;
+}
+
+.navbar-toggler {
+    margin-right: 10px;
+    margin-bottom: 5px;
 }
 
 #basic-navbar-nav {
@@ -13,6 +18,7 @@
 
 .navbar-brand {
     text-align: left;
+    width: 200px;
 }
 
 .navbar-nav {
@@ -20,6 +26,6 @@
 }
 
 #logo {
-    width: 13%;
-    height: 13%;
+    width: 30%;
+    height: 30%;
 }

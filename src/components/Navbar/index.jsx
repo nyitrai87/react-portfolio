@@ -5,8 +5,8 @@ import './index.css'
 
 function MyNavbar() {
     return (
-        <Navbar fixed="top" expand="md" className='customNav'>
-            <Container fluid className="nav-container">
+        <Container fluid className="nav-container">
+            <Navbar fixed="top" expand="md" className='customNav'>
                 <Navbar.Brand href="/">
                     <img id='logo' src="./src/assets/images/lorna-logo-dark.png" /> {' '}
                     The Nyitrai's</Navbar.Brand>
@@ -18,8 +18,8 @@ function MyNavbar() {
                         <Nav.Link href="/contact">Contact</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
-            </Container>
-        </Navbar>
+            </Navbar>
+        </Container>
     );
 }
 
