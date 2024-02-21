@@ -5,7 +5,7 @@ import './index.css'
 
 function MyNavbar() {
     return (
-        <Container fluid className="nav-container">
+        <Container className="nav-container">
             <Navbar fixed="top" expand="md" className='customNav'>
                 <Navbar.Brand href="/">
                     <img id='logo' src="./src/assets/images/lorna-logo-dark.png" /> {' '}
