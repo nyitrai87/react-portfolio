@@ -4,9 +4,9 @@ import Button from 'react-bootstrap/Button';
 import Container from 'react-bootstrap/Container';
 import emailjs from '@emailjs/browser';
 
-const SERVICE_ID = "nyitrai_portfolio";
-const TEMPLATE_ID = "portfolio_contact";
-const PUBLIC_KEY = "duX10OCVP3WX_Uj1C";
+const SERVICE_ID = import.meta.env.VITE_SERVICE_ID;
+const TEMPLATE_ID = import.meta.env.VITE_TEMPLATE_ID;
+const PUBLIC_KEY = import.meta.env.VITE_PUBLIC_KEY;
 
 const Contact = () => {
     const form = useRef();
