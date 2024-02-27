@@ -19,3 +19,14 @@
     height: auto;
     border-radius: 0.5rem !important;
 }
+
+@media (max-width: 767px) {
+    .jumbotron-img {
+        width: 75%;
+        padding: 0 !important;
+    }
+
+    .img-col {
+        width: 76% !important;
+    }
+}

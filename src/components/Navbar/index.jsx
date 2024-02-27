@@ -8,7 +8,7 @@ function MyNavbar() {
         <Container className="nav-container">
             <Navbar fixed="top" expand="md" className='customNav'>
                 <Navbar.Brand href="/">
-                    <img id='logo' src="./src/assets/images/lorna-logo-dark.png" /> {' '}
+                    <img id='logo' src="./images/lorna-logo-dark.png" /> {' '}
                     The Nyitrai's</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">

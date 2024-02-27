@@ -1,0 +1,22 @@
+.contact-form {
+    background: #CACACA !important;
+    padding: 12px;
+}
+
+.send-btn {
+    width: 100%;
+    border: none !important;
+    background-color: #282828 !important;
+}
+
+.contact-opt img {
+    width: 24px;
+    height: 24px;
+    padding-right: 5px;
+}
+
+@media (max-width: 767px) {
+    .contact-form {
+        width: 75% !important;
+    }
+}
