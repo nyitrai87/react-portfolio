@@ -14,12 +14,6 @@ const TEMPLATE_ID = import.meta.env.VITE_TEMPLATE_ID;
 const PUBLIC_KEY = import.meta.env.VITE_PUBLIC_KEY;
 
 const Contact = () => {
-    const [formData, setFormData] = useState({
-        email: '',
-        name: '',
-        message: '',
-    });
-
     const [show, setShow] = useState(false);
 
     const handleClose = () => setShow(false);
