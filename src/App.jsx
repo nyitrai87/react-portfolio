@@ -13,7 +13,7 @@ function App() {
           <Route path='' element={<Home />} />
           <Route path='/portfolio' element={<ProjectGallery />} />
           <Route path='/contact' element={<Contact />} />
-          <Route path='/404' element={<Custom404 />} />
+          <Route path='/*' element={<Custom404 />} />
         </Routes>
       </Router>
 
