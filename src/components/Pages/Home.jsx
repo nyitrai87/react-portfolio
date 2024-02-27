@@ -6,8 +6,8 @@ import './Home.css'
 
 const Home = () => {
     return (
-        <Row className="d-flex justify-content-center g-4">
-            <Col xs={12} md={8}>
+        <Row className="d-flex justify-content-center g-4 home-row">
+            <Col xs={12} md={8} xl={6}>
                 <Container className="rounded-3 jumbotron-text">
                     <h1 className="display-5 fw-bold">Adam Nyitrai</h1>
                     <h2>Front-End Developer | Crafting Engaging Web Experiences</h2><br />
@@ -16,9 +16,9 @@ const Home = () => {
                 </Container>
             </Col>
 
-            <Col xs={9} md={2} className="img-col">
+            <Col xs={12} md={3} xl={2} className="img-col">
                 <Container className="rounded-3 jumbotron-img">
-                    <Image id="headshot" src="./src/assets/images/headshot.png" alt="" />
+                    <Image id="headshot" src="./images/headshot.png" alt="" />
                 </Container>
             </Col>
         </Row>
