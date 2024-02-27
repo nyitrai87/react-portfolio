@@ -11,7 +11,7 @@ function ProjectCard({ project }) {
                 <Card.Text>{project.description}</Card.Text>
                 <div className="card-bottom">
                     <Card.Text className="techs">{project.techs.map((tech, i) => (
-                        <img key={i} src={tech} className="tech-logo"></img>
+                        <img key={i} src={tech} title={project.techTitles[i]} className="tech-logo"></img>
                     ))}</Card.Text>
                     <div className="buttons-div">
                         <a href={project.github}><Button className="github-btn" variant="primary">GitHub Repository</Button></a>
