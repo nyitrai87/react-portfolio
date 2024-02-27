@@ -15,6 +15,25 @@
     padding-right: 5px;
 }
 
+.modal-content {
+    background: #282828 !important;
+    color: #CACACA !important;
+}
+
+.modal-header {
+    border-bottom: 1px solid #CACACA !important;
+}
+
+.modal-footer {
+    border-top: 1px solid #CACACA !important;
+}
+
+.close-btn {
+    background: #CACACA !important;
+    color: #282828 !important;
+    border: none !important;
+}
+
 @media (max-width: 767px) {
     .contact-form {
         width: 75% !important;
