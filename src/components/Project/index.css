@@ -9,8 +9,14 @@
     text-align: center;
 }
 
+.card-bottom {
+    display: flex;
+    flex-direction: column;
+}
+
 .buttons-div {
     display: flex;
+    flex-direction: row;
     justify-content: space-around;
 }
 
@@ -26,4 +32,14 @@
     border: none !important;
     width: 160px;
     margin: 0 5px 0 5px;
+}
+
+.tech-logo {
+    height: 30px;
+    margin: 5px;
+}
+
+.techs {
+    border-top: 1px solid #282828;
+    border-bottom: 1px solid #282828;
 }
