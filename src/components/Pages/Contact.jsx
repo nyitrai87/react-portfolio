@@ -1,6 +1,8 @@
 import { useRef } from 'react';
+import { useState } from 'react';
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
+import Modal from 'react-bootstrap/Modal';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
@@ -12,6 +14,17 @@ const TEMPLATE_ID = import.meta.env.VITE_TEMPLATE_ID;
 const PUBLIC_KEY = import.meta.env.VITE_PUBLIC_KEY;
 
 const Contact = () => {
+    const [formData, setFormData] = useState({
+        email: '',
+        name: '',
+        message: '',
+    });
+
+    const [show, setShow] = useState(false);
+
+    const handleClose = () => setShow(false);
+    const handleShow = () => setShow(true);
+
     const form = useRef();
 
     const sendEmail = (e) => {
@@ -25,7 +38,7 @@ const Contact = () => {
             )
             .then(
                 (result) => {
-                    alert('message sent successfully...');
+                    e.target.reset();
                     console.log(result.text);
                 },
                 (error) => {
@@ -84,9 +97,20 @@ const Contact = () => {
                             <Form.Label>Message:</Form.Label>
                             <Form.Control as="textarea" name="message" placeholder="Enter your message here..." rows={5} />
                         </Form.Group>
-                        <Button variant="primary" type="submit" className="send-btn">
+                        <Button variant="primary" type="submit" className="send-btn" onClick={handleShow}>
                             Send
                         </Button>
+
+                        <Modal show={show} onHide={handleClose}>
+                            <Modal.Header closeButton>
+                                <Modal.Title>Your message has been sent!</Modal.Title>
+                            </Modal.Header>
+                            <Modal.Footer>
+                                <Button variant="secondary" className="close-btn" onClick={handleClose}>
+                                    Close
+                                </Button>
+                            </Modal.Footer>
+                        </Modal>
                     </Form>
                 </Container>
             </Col>
