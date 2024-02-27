@@ -20,6 +20,14 @@
     border-radius: 0.5rem !important;
 }
 
+.bio-row {
+    padding-bottom: 24px;
+}
+
+.techs-used img {
+    height: 50px;
+}
+
 @media (max-width: 767px) {
     .jumbotron-img {
         width: 75%;

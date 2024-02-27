@@ -50,27 +50,27 @@ const Contact = () => {
                     <section>
                         <div className="contact-opt">
                             <h6><img src="./icons/phone.svg" alt="My phone number" />
-                                Phone: <a href="tel:+447949748348">07949748348</a></h6>
+                                Phone: <a href="tel:+447949748348" title="My phone number: 07949748348">07949748348</a></h6>
                         </div>
                         <div className="contact-opt">
                             <h6><img src="./icons/email.svg" alt="My email address" />
-                                Email: <a href="mailto:the.nyitrai@gmail.com">the.nyitrai@gmail.com</a></h6>
+                                Email: <a href="mailto:the.nyitrai@gmail.com" title="My email address: the.nyitrai@gmail.com">the.nyitrai@gmail.com</a></h6>
                         </div>
                         <div className="contact-opt">
                             <h6><img src="./icons/file.svg" alt="My CV" />
-                                <a href="./Adam_Nyitrai_CV.pdf" target="blank">My CV</a></h6>
+                                <a href="./Adam_Nyitrai_CV.pdf" target="blank" title="Check my CV">My CV</a></h6>
                         </div>
                         <div className="contact-opt">
                             <h6><img src="./icons/linkedin.svg" alt="My LinkedIn profile" />
-                                <a href="https://www.linkedin.com/in/adam-nyitrai/" target="blank">My LinkedIn profile</a></h6>
+                                <a href="https://www.linkedin.com/in/adam-nyitrai/" target="blank" title="My LinkedIn profile">My LinkedIn profile</a></h6>
                         </div>
                         <div className="contact-opt">
                             <h6><img src="./icons/github.svg" alt="My GitHub profile" />
-                                <a href="https://github.com/nyitrai87" target="blank">My GitHub profile</a></h6>
+                                <a href="https://github.com/nyitrai87" target="blank" title="My GitHub profile">My GitHub profile</a></h6>
                         </div>
                         <div className="contact-opt">
                             <h6><img src="./icons/facebook.svg" alt="My Facebook profile" />
-                                <a href="https://www.facebook.com/the.nyitrai/" target="blank">My Facebook profile</a></h6>
+                                <a href="https://www.facebook.com/the.nyitrai/" target="blank" title="My Facebook profile">My Facebook profile</a></h6>
                         </div>
                     </section>
                 </Container>
