@@ -5,6 +5,8 @@ function Footer() {
         <footer>
             <h6>2024 © Created by Adam Nyitrai with
                 <img src="./logos/react.png" alt="React" title="React" className="tech-icon" />
+                <img src="./logos/vite.png" alt="Vite" title="Vite" className="tech-icon" />
+                <img src="./logos/reactbootstrap.png" id="react-bs" alt="React Bootstrap" title="React Bootstrap" className="tech-icon" />
                 <img src="./logos/bootstrap.png" alt="Bootstrap" title="Bootstrap" className="tech-icon" />
                 <img src="./logos/html.png" alt="HTML" title="HTML" className="tech-icon" />
                 <img src="./logos/css.png" alt="CSS" title="CSS" className="tech-icon" />

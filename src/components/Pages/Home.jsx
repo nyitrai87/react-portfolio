@@ -13,7 +13,7 @@ const Home = () => {
                     <h2>Front-End Developer | Crafting Engaging Web Experiences</h2><br />
                     <p className="fs-4">Hello and welcome on my portfolio website! <br /><br />
                         I am a Front-End Developer with a rich background that ranges from warehousing to technical support. My passion for problem-solving led me to earn a certificate in front-end web development from the edX Skills Bootcamp. Now, I am excited to leverage my skills to create engaging and responsive web experiences. I am always eager to explore new technologies and strive for continuous improvement. Dive in to discover the projects that showcase my journey and growth in the world of web development!</p><br />
-                    <h2>My skills, so far:</h2><br />
+                    <h2>My skills, so far:</h2>
                     <p className="fs-4">HTML | CSS | JavaScript | Bootstrap | React.js | Node.js | jQuery | Jest | APIs | Git | GitHub</p>
                 </Container>
             </Col>

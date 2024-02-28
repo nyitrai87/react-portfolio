@@ -36,6 +36,10 @@ footer h6 {
     width: auto;
 }
 
+#react-bs {
+    filter: brightness(50%)
+}
+
 @media (max-width: 1023px) {
     footer {
         flex-direction: column;
