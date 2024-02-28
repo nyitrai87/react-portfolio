@@ -25,9 +25,9 @@ Screenshot of the Contact page
 ![Screenshot of the Contact page](public/images/contact.png)
 
 ## Screenshots (mobile screens) <a name="screenshots-m"></a>
-![Screenshot of the Home page](public/images/home-mobile.png)
-![Screenshot of the Portfolio page](public/images/portfolio-mobile.png)
-![Screenshot of the Contact page](public/images/contact-mobile.png)
+<img src="public/images/home-mobile.png" alt="Screenshot of the Home page" title="Screenshot of the Home page" width="75%" /></a>
+<img src="public/images/portfolio-mobile.png" alt="Screenshot of the Portfolio page" title="Screenshot of the Portfolio page" width="75%" /></a>
+<img src="public/images/contact-mobile.png" alt="Screenshot of the Contact page" title="Screenshot of the Contact page" width="75%" /></a>
 
 ## Links
 [Link to the deployed application](https://nyitrai.netlify.app/)
