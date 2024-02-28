@@ -7,14 +7,13 @@ This project is my personal portfolio site, designed to showcase my skills and c
 - A ‘Contact’ page that includes my CV, contact details, social media links, and a contact form.
 
 ## Table of Contents
-- [Screenshots (large screens)](#screenshots-l)
-- [Screenshots (mobile screens)](#screenshots-m)
+- [Screenshots](#screenshots)
 - [Links](#links)
 - [Technologies used](#techs)
 - [Dependencies](#dependencies)
 - [Sources](#sources)
 
-## Screenshots (large screens) <a name="screenshots-l"></a>
+## Screenshots
 Screenshot of the Home page
 ![Screenshot of the Home page](public/images/home.png)
 
@@ -24,7 +23,6 @@ Screenshot of the Portfolio page
 Screenshot of the Contact page
 ![Screenshot of the Contact page](public/images/contact.png)
 
-## Screenshots (mobile screens) <a name="screenshots-m"></a>
 ![Screenshot of the Home page](public/images/home-mobile.png)
 ![Screenshot of the Portfolio page](public/images/portfolio-mobile.png)
 ![Screenshot of the Contact page](public/images/contact-mobile.png)
