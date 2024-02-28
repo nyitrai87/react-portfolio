@@ -1,4 +1,4 @@
-# Adam Nyitrai's Web Developer Portfolio ![License](https://img.shields.io/badge/License-MIT-blue.svg)
+# Adam Nyitrai's Web Developer Portfolio ![License](https://img.shields.io/badge/License-MIT-blue.svg) [![Netlify Status](https://api.netlify.com/api/v1/badges/9ffeb492-1c7e-47dc-965e-ecb759e42bd5/deploy-status)](https://app.netlify.com/sites/nyitrai/deploys)
 
 ## Description
 This project is my personal portfolio site, designed to showcase my skills and capabilities in front-end development. The website consists of three pages:
