@@ -11,13 +11,16 @@
 .jumbotron-img {
     background: #CACACA;
     padding: 0 !important;
-    border-radius: 0.5rem !important;
 }
 
-#headshot {
+.side-img {
     max-width: 100%;
     height: auto;
-    border-radius: 0.5rem !important;
+}
+
+#grade {
+    padding-left: 12px;
+    padding-top: 8px !important;
 }
 
 .bio-row {

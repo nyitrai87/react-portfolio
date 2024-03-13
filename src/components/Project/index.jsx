@@ -14,9 +14,9 @@ function ProjectCard({ project }) {
                         <img key={i} src={tech} title={project.techTitles[i]} className="tech-logo"></img>
                     ))}</Card.Text>
                     <div className="buttons-div">
-                        <a href={project.github}><Button className="github-btn" variant="primary">GitHub Repository</Button></a>
+                        <a href={project.github} target="_blank"><Button className="github-btn" variant="primary">GitHub Repository</Button></a>
                         {project.deployed !== '' ?
-                            <a href={project.deployed}><Button className="deployed-btn" variant="primary">Deployed Site</Button></a>
+                            <a href={project.deployed} target="_blank"><Button className="deployed-btn" variant="primary">Deployed Site</Button></a>
                             : ""}
                     </div>
                 </div>
