@@ -1,4 +1,4 @@
-import { Image, Row, Col, Container, Card } from 'react-bootstrap';
+import { Image, Row, Col, Container } from 'react-bootstrap';
 import './Home.css'
 
 const Home = () => {
