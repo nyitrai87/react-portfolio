@@ -17,7 +17,6 @@ function Footer() {
                 <a href="./Adam_Nyitrai_CV.pdf" target="blank" title="Check my CV"><img src="./icons/file.svg" alt="My CV" className="contact-icon" /></a>
                 <a href="https://www.linkedin.com/in/adam-nyitrai/" target="blank" title="My LinkedIn profile"><img src="./icons/linkedin.svg" alt="My LinkedIn profile" className="contact-icon" /></a>
                 <a href="https://github.com/nyitrai87" target="blank" title="My GitHub profile"><img src="./icons/github.svg" alt="My GitHub profile" className="contact-icon" /></a>
-                <a href="https://www.facebook.com/the.nyitrai/" target="blank" title="My Facebook profile"><img src="./icons/facebook.svg" alt="My Facebook profile" className="contact-icon" /></a>
             </div>
         </footer>
     );

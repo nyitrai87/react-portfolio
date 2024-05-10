@@ -68,10 +68,6 @@ const Contact = () => {
                             <h6><img src="./icons/github.svg" alt="My GitHub profile" />
                                 <a href="https://github.com/nyitrai87" target="blank" title="My GitHub profile">My GitHub profile</a></h6>
                         </div>
-                        <div className="contact-opt">
-                            <h6><img src="./icons/facebook.svg" alt="My Facebook profile" />
-                                <a href="https://www.facebook.com/the.nyitrai/" target="blank" title="My Facebook profile">My Facebook profile</a></h6>
-                        </div>
                     </section>
                 </Container>
             </Col>
