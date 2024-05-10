@@ -18,7 +18,7 @@
     height: auto;
 }
 
-#grade {
+.cont-header {
     padding-left: 12px;
     padding-top: 8px !important;
 }
@@ -29,6 +29,10 @@
 
 .techs-used img {
     height: 50px;
+}
+
+#skills {
+    padding-top: 8px !important;
 }
 
 @media (max-width: 767px) {
