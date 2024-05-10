@@ -23,9 +23,8 @@ Screenshot of the Portfolio page
 Screenshot of the Contact page
 ![Screenshot of the Contact page](public/images/contact.png)
 
-![Screenshot of the Home page](public/images/home-mobile.png)
-![Screenshot of the Portfolio page](public/images/portfolio-mobile.png)
-![Screenshot of the Contact page](public/images/contact-mobile.png)
+Screenshots on small screen
+![Screenshots on small screen](public/images/mobile.png)
 
 ## Links
 [Link to the deployed application](https://nyitrai.netlify.app/)
